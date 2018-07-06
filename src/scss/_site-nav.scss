@@ -1,0 +1,13 @@
+.nav-button {
+    background-color: white;
+    color:$primary-color;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding:1rem;
+    width:100%;
+    &:hover {
+        color:$a-color;
+        background-color: $hover-color;
+    }
+
+}

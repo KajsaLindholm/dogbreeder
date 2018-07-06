@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+  }
+
+body {
+    min-height: 100vh;
+}
+
+.mainheader {
+    padding: 5rem;
+}
+
+.grid-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    flex:1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.card {
+    flex:4;
+    width: 90%;
+    height:70%;
+}
+
+.images {
+    display:flex;
+    flex-flow: row wrap;
+    width:inherit;
+}
+
+.img-vertical {
+max-height: inherit;
+}
+
+.img-horizontal {
+/* no idea how to fix this */
+}

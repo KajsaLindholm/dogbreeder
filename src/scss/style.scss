@@ -7,12 +7,15 @@
 
 @import 'layout';
 @import 'variables';
+@import 'header';
+@import 'site-nav';
+@import 'card';
 
 /* MOBILE FIRST */
-*{
-  box-sizing: border-box;
+body {
+  background-color: $a-color;
 }
 
 .headline {
-  color:$primary-color;
+  color: $primary-color;
 }
