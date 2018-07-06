@@ -1,0 +1,18 @@
+
+/* CLASSES: mainheader, container, card, nav-menu, img-nav, profileimg, logo,
+            main-content, right-column, contact */
+/* ID's: INDEX nav-ourdogs, link-ourdogs, Puppies, Vincent, news, OURDOGS meriter,
+          health, mental ABOUT owner, breed, yourpup*/
+
+
+@import 'layout';
+@import 'variables';
+
+/* MOBILE FIRST */
+*{
+  box-sizing: border-box;
+}
+
+.headline {
+  color:$primary-color;
+}
